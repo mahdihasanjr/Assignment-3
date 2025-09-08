@@ -26,8 +26,8 @@
 
 <body class="font-manrope">
 
-    <header class="bg-gray-100">
-      <nav class="container mx-auto flex justify-between items-center px-5 md:px-8 lg:px-5 py-8 lg:py-13">
+    <header class="bg-gray-50  px-5 md:px-8 lg:px-5 pb-20">
+      <nav class="container mx-auto flex justify-between items-center py-8 lg:py-13">
         <!-- nav-1 -->
          <div class="flex gap-2 items-center">
            <div class="size-8 bg-color flex justify-center items-center rounded-full">
@@ -64,7 +64,7 @@
       </nav>
 
       <!-- hero-area -->
-       <div class=" container mx-auto px-5 md:px-8 lg:px-5 ">
+       <div class=" container mx-auto ">
         <figure>
             <img src="./assets/banner.png" alt="banner" class="mx-auto">
         </figure>
@@ -75,13 +75,73 @@
                 The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
             </p>
             
-            <button class="bg-color inline-flex items-center justify-center font-extrabold  text-xl rounded-3xl p-3 md:px-3 md:py-2 cursor-pointer">
-                    Book Consult
-                    <span class=" size-6 md:size-8 bg-black text-white flex justify-center items-center rounded-full ml-2"><i class="fa-solid fa-arrow-right -rotate-45 text-base"></i></span>
+            <button class="bg-[rgba(171,239,95,0.5)] inline-flex items-center justify-center font-extrabold  text-xl rounded-3xl p-3 md:px-3 md:py-2 cursor-pointer">
+                    View Details
+                    <span class=" size-6 md:size-8 bg-[#ABEF5F] text-black flex justify-center items-center rounded-full ml-2"><i class="fa-solid fa-arrow-right -rotate-45 text-base"></i></span>
             </button>
             
          </div>
        </div>
     </header>
+
+    <!-- main section -->
+     <main class=" px-5 md:px-8 lg:px-5 bg-gray-100 ">
+
+        <!-- we design section -->
+         <section class=" container mx-auto py-10 lg:py-20">
+            <!-- grid box -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-0">
+
+                <!-- text-box -->
+                 <div class="flex-flex-col justify-center lg:max-w-9/10">
+
+                    <!-- heading-tex -->
+                     <div class="text-center relative mb-6">
+                        <figure class="hidden lg:flex absolute -top-10 -left-10">
+                            <img src="./assets/Vector.png" alt="" class="w-3/4">
+                        </figure>
+                        <button class="rounded-3xl bg-white shadow-sm text-xs px-2 py-1 mb-4"><a href="#">
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                            About Us</a>
+                        </button>
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-6">We design thoughtful, liveable spaces</h1>
+                        <p class="font-medium text-[#494949]">
+                            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                     </div>
+                     <!-- card-box -->
+                      <div class="grid md:grid-cols-2 lg:grid-cols-1 gap-6">
+                        <!-- card-1 -->
+                         <div class="flex items-center gap-6 px-6 py-5 bg-white rounded-xl">
+                            <figure>
+                                <img src="./assets/commercial.png" alt="">
+                            </figure>
+                            <div class="space-y-1">
+                                <h1 class="text-xl font-extrabold text-[#494949]">Commercial</h1>
+                                <p class="text-sm md:text-base font-medium text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                         </div>
+
+                         <!-- card-2 -->
+                         <div class="flex items-center gap-6 px-6 py-5 bg-white rounded-xl">
+                            <figure>
+                                <img src="./assets/residential.png" alt="">
+                            </figure>
+                            <div class="space-y-1">
+                                <h1 class="text-xl font-extrabold text-[#494949]">Residential</h1>
+                                <p class="text-sm md:text-base font-medium text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                         </div>
+                      </div>
+                 </div>
+
+                 <!-- image-box -->
+                  <figure>
+                    <img src="./assets/Rectangle.png" alt=""
+                    class="w-full h-full">
+                  </figure>
+            </div>
+         </section>
+     </main>
 </body>
 </html>
